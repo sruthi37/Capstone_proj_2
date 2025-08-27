@@ -650,8 +650,7 @@ python app.py
 - Scikit-learn Machine Learning
 - Random Forest Algorithm
 - HTML5/CSS3 Frontend
-```
-```
+
 
 ## HOW TO RUN THIS PROJECT?
 
