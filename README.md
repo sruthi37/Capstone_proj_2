@@ -22,12 +22,11 @@ To design, develop, and implement a machine learning-based web application capab
 
 ### Technical Objectives
    - **To develop a robust machine learning model** utilizing Random Forest classification algorithm trained on comprehensive URL feature datasets for phishing detection.
-
->**To implement feature engineering techniques** that extract and process critical URL attributes including:
-   - Structural characteristics (URL length, subdomain hierarchy)
-   - Security indicators **(HTTPS protocol, domain registration patterns)**
-   - Suspicious elements **(special characters, IP address usage)**
-   - Behavioral markers **(redirection patterns, anomalous components)**
+   - **To implement feature engineering techniques** that extract and process critical URL attributes including:
+>Structural characteristics (URL length, subdomain hierarchy)
+>Security indicators **(HTTPS protocol, domain registration patterns)**
+>Suspicious elements **(special characters, IP address usage)**
+>Behavioral markers **(redirection patterns, anomalous components)**
 
 >**To design an intuitive web interface** using Flask framework that provides:
    - Real-time URL analysis capabilities
