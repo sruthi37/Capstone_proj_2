@@ -616,28 +616,29 @@ A machine learning-based web application that detects phishing websites using Ra
 
 ## Installation
 
-1. Clone the repository:
-```bash
+    1. Clone the repository:
+```python
 git clone <repository-url>
 cd Phishing_app
 ```
 
-2. Install dependencies:
+    2. Install dependencies:
 ```
 pip install -r requirements.txt
 ```
 
-3. Train the model:
+    3. Train the model:
 ```
 python train_model.py
 ```
 
-4. Run the application:
+     4. Run the application:
 ```
 python app.py
 ```
 
-5. Open http://localhost:5000 in your browser
+    5. Open http://localhost:5000 in your browser
+
 
 ## Usage
 1. Enter a URL in the text field
