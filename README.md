@@ -603,7 +603,7 @@ if __name__ == '__main__':
 ```
 
 ### **6. README.md** (Documentation)
-```markdown
+
 # Phishing Website Detection System
 
 A machine learning-based web application that detects phishing websites using Random Forest classification.
@@ -617,23 +617,23 @@ A machine learning-based web application that detects phishing websites using Ra
 ## Installation
 
 1. Clone the repository:
-```bash
+```
 git clone <repository-url>
 cd Phishing_app
 ```
 
 2. Install dependencies:
-```bash
+```
 pip install -r requirements.txt
 ```
 
 3. Train the model:
-```bash
+```
 python train_model.py
 ```
 
 4. Run the application:
-```bash
+```
 python app.py
 ```
 
