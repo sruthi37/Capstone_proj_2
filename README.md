@@ -104,7 +104,7 @@ To design, develop, and implement a machine learning-based web application capab
 
 ## **TOOLS AND TECHNOLOGIES USED**
 
-### **Development Tools**
+### Development Tools
 
 |             Tool              | Version |           Purpose                  |
 |-------------------------------|---------|------------------------------------|
@@ -113,7 +113,7 @@ To design, develop, and implement a machine learning-based web application capab
 | **Git**                       | -       | Version control system             |
 | **Command Prompt/PowerShell** | -       | Command-line interface             |
 
-### **Data Science & Machine Learning**
+### Data Science & Machine Learning
 
 | Technology       | Version |          Purpose                |
 |------------------|---------|---------------------------------|
@@ -122,7 +122,7 @@ To design, develop, and implement a machine learning-based web application capab
 | **Scikit-learn** | 1.6.1   | Machine learning library        |
 | **Joblib**       | 1.4.2   | Model serialization and loading |
 
-### **Web Framework & Frontend**
+### Web Framework & Frontend
 
 |    Technology   |         Purpose               |
 |-----------------|-------------------------------|
@@ -132,7 +132,7 @@ To design, develop, and implement a machine learning-based web application capab
 | **Jinja2**      | Template engine for Flask     |
 
 
-### **Machine Learning Algorithms**
+### Machine Learning Algorithms
 
 |          Algorithm           | Implementation |          Purpose                 |
 |------------------------------|----------------|----------------------------------|
@@ -141,7 +141,7 @@ To design, develop, and implement a machine learning-based web application capab
 | **Stratified Sampling**      | Scikit-learn   | Handling class imbalance         |
 
 
-### **Data Handling & Storage**
+### Data Handling & Storage
 
 |     Technology          |               Purpose                  |
 |-------------------------|----------------------------------------|
@@ -149,7 +149,7 @@ To design, develop, and implement a machine learning-based web application capab
 | **Pickle Files (.pkl)** | Model persistence and feature storage  |
 | **Pandas DataFrame**    | In-memory data structure               |
 
-### **Core Python Libraries**
+### Core Python Libraries
 
 ```python
 # Essential Libraries
@@ -162,7 +162,7 @@ import re                                             # Regular expressions
 from flask import Flask, render_template, request     # Web framework
 ```
 
-### **Development Dependencies**
+### Development Dependencies
 
 ```python
 # requirements.txt content
@@ -173,39 +173,39 @@ numpy==2.2.3
 joblib==1.4.2
 ```
 
-### **Software Architecture**
+### Software Architecture
 ```
 Client Layer (Browser) → Web Server (Flask) → 
 ML Model (Random Forest) → Data Processing → 
 Result Generation → Response to Client
 ```
 
-### **Frontend Technologies**
+### Frontend Technologies
 - **HTML5**: Semantic markup structure
 - **CSS3**: Modern styling with gradients and shadows
 - **Responsive Design**: Mobile-friendly interface
 - **Embedded Images**: Static file handling
 
-### **Model Training Stack**
+### Model Training Stack
 1. **Data Loading**: Pandas CSV reader
 2. **Feature Engineering**: Custom Python functions
 3. **Model Training**: Scikit-learn Random Forest
 4. **Model Evaluation**: Accuracy metrics, classification reports
 5. **Model Persistence**: Joblib serialization
 
-### **Deployment Readiness**
+### Deployment Readiness
 - **Lightweight**: No database required
 - **Portable**: Single directory structure
 - **Easy Setup**: Simple pip install requirements
 - **Cross-Platform**: Works on Windows, macOS, Linux
 
-### **Additional Technical Components**
+### Additional Technical Components
 - **Regular Expressions**: URL pattern matching
 - **Error Handling**: Try-except blocks for robustness
 - **Logging**: Console output for debugging
 - **Configuration Management**: Environment-based settings
 
-### **Performance Optimization**
+### Performance Optimization
 - **Efficient Data Structures**: Pandas DataFrames
 - **Model Caching**: Pre-trained model loading
 - **Memory Management**: Optimized feature extraction
@@ -221,7 +221,7 @@ This technology stack represents a modern, efficient, and scalable approach to m
 Here is the complete implementation of your Phishing Website Detection project:
 
 
-### **1. Project Structure**
+### 1. Project Structure
 ```
 Phishing_app/
 │
@@ -242,7 +242,7 @@ Phishing_app/
 ```
 
 
-### **2. requirements.txt**
+### 2. requirements.txt
 ```txt
 flask==3.1.0
 scikit-learn==1.6.1
@@ -252,7 +252,7 @@ joblib==1.4.2
 ```
 
 
-### **3. train_model.py** (Model Training)
+### 3. train_model.py (Model Training)
 ```python
 # train_model.py
 import pandas as pd
@@ -346,7 +346,7 @@ print(feature_importance.head(10))
 ```
 
 
-### **4. app.py** (Flask Web Application)
+### 4. app.py (Flask Web Application)
 ```python
 # app.py
 from flask import Flask, render_template, request
@@ -437,7 +437,7 @@ if __name__ == '__main__':
 ```
 
 
-### **5. templates/index.html** (Web Interface)
+### 5. templates/index.html (Web Interface)
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -602,7 +602,7 @@ if __name__ == '__main__':
 </html>
 ```
 
-### **6. README.md** (Documentation)
+### 6. README.md (Documentation)
 
 # Phishing Website Detection System
 
@@ -655,26 +655,26 @@ python app.py
 
 ## HOW TO RUN THIS PROJECT?
 
-**Step 1: Install Dependencies**
+### Step 1: Install Dependencies
 ```
 pip install -r requirements.txt
 ```
 
-### **Step 2: Train the Model**
+### Step 2: Train the Model
 ```
 python train_model.py
 ```
 
-### **Step 3: Run the Web Application**
+### Step 3: Run the Web Application
 ```
 python app.py
 ```
 
-### **Step 4: Open in Browser**
+### Step 4: Open in Browser
 
 Go to: `http://localhost:5000`
 
-### **Step 5: Test URLs**
+### Step 5: Test URLs
 
 Try these examples:
 - `https://www.google.com` (Legitimate)
