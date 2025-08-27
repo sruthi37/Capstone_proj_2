@@ -6,11 +6,11 @@
 ## OVERVIEW OF THE PROJECT
 
 
-### PROJECT : PHISHING WEBSITE DETECTION USING MACHINE LEARNING
+## PROJECT : PHISHING WEBSITE DETECTION USING MACHINE LEARNING
 
 
 
-### OBJECTIVE
+## OBJECTIVE
 
 
 
@@ -102,7 +102,7 @@ To design, develop, and implement a machine learning-based web application capab
 
 
 
-### **TOOLS AND TECHNOLOGIES USED**
+## **TOOLS AND TECHNOLOGIES USED**
 
 ### **Development Tools**
 
@@ -215,7 +215,7 @@ This technology stack represents a modern, efficient, and scalable approach to m
 
 
 
-### IMPLEMENTATION
+## IMPLEMENTATION
 
 
 Here is the complete implementation of your Phishing Website Detection project:
@@ -614,7 +614,7 @@ A machine learning-based web application that detects phishing websites using Ra
 - Responsive web interface
 - Instant phishing detection
 
-## Installation
+### Installation
 
 1. Clone the repository:
 ```
@@ -639,12 +639,12 @@ python app.py
 
 5. Open http://localhost:5000 in your browser
 
-## Usage
+### Usage
 1. Enter a URL in the text field
 2. Click "Check URL" button
 3. View the prediction result
 
-## Technology Stack
+### Technology Stack
 - Python 3.12.5
 - Flask Web Framework
 - Scikit-learn Machine Learning
@@ -653,7 +653,7 @@ python app.py
 ```
 ```
 
-### HOW TO RUN THIS PROJECT?
+## HOW TO RUN THIS PROJECT?
 
 **Step 1: Install Dependencies**
 ```
