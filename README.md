@@ -23,25 +23,38 @@ To design, develop, and implement a machine learning-based web application capab
 ### Technical Objectives
    - **To develop a robust machine learning model** utilizing Random Forest classification algorithm trained on comprehensive URL feature datasets for phishing detection.
    - **To implement feature engineering techniques** that extract and process critical URL attributes including:
->Structural characteristics (URL length, subdomain hierarchy)
+
+>Structural characteristics **(URL length, subdomain hierarchy)**
+
 >Security indicators **(HTTPS protocol, domain registration patterns)**
+
 >Suspicious elements **(special characters, IP address usage)**
+
 >Behavioral markers **(redirection patterns, anomalous components)**
 
->**To design an intuitive web interface** using Flask framework that provides:
-   - Real-time URL analysis capabilities
-   - User-friendly input and result visualization
-   - Responsive design for cross-platform accessibility
+   - **To design an intuitive web interface** using Flask framework that provides:
 
->**To achieve optimal performance metrics** targeting:
-   - Minimum 85% classification accuracy
-   - High precision and recall rates for both phishing and legitimate classes
-   - Low false positive rate to ensure user confidence
+>Real-time URL analysis capabilities
 
->**To create a scalable architecture** that allows for:
-   - Easy model retraining with updated datasets
-   - Future integration of additional features
-   - Potential API development for third-party applications
+>User-friendly input and result visualization
+
+>Responsive design for cross-platform accessibility
+
+   - **To achieve optimal performance metrics** targeting:
+
+>Minimum 85% classification accuracy
+
+>High precision and recall rates for both phishing and legitimate classes
+
+>Low false positive rate to ensure user confidence
+
+   - **To create a scalable architecture** that allows for:
+     
+>Easy model retraining with updated datasets
+
+>Future integration of additional features
+
+>Potential API development for third-party applications
 
 
 ### Functional Objectives
@@ -74,15 +87,15 @@ To design, develop, and implement a machine learning-based web application capab
 
 ### Success Criteria
 
->*Model accuracy exceeding industry baseline standards*
+>**Model accuracy exceeding industry baseline standards**
 
->*Web application operational with sub-second response times*
+>**Web application operational with sub-second response times**
 
->*User-friendly interface requiring minimal training*
+>**User-friendly interface requiring minimal training**
 
->*Comprehensive documentation for future development*
+>**Comprehensive documentation for future development**
 
->*Successful detection of both obvious and sophisticated phishing attempts*
+>**Successful detection of both obvious and sophisticated phishing attempts**
 
 
 
