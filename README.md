@@ -623,17 +623,17 @@ cd Phishing_app
 ```
 
 2. Install dependencies:
-```bash
+```
 pip install -r requirements.txt
 ```
 
 3. Train the model:
-```bash
+```
 python train_model.py
 ```
 
 4. Run the application:
-```bash
+```
 python app.py
 ```
 
@@ -653,27 +653,29 @@ python app.py
 - HTML5/CSS3 Frontend
 ```
 
-## ** How to Run the Project**
+## HOW TO RUN THIS PROJECT?
 
 ### **Step 1: Install Dependencies**
-```bash
+```
 pip install -r requirements.txt
 ```
 
 ### **Step 2: Train the Model**
-```bash
+```
 python train_model.py
 ```
 
 ### **Step 3: Run the Web Application**
-```bash
+```
 python app.py
 ```
 
 ### **Step 4: Open in Browser**
+
 Go to: `http://localhost:5000`
 
 ### **Step 5: Test URLs**
+
 Try these examples:
 - `https://www.google.com` (Legitimate)
 - `http://free-gift-card.ru` (Phishing)
