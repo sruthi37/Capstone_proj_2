@@ -616,29 +616,28 @@ A machine learning-based web application that detects phishing websites using Ra
 
 ## Installation
 
-    1. Clone the repository:
-```python
+1. Clone the repository:
+```bash
 git clone <repository-url>
 cd Phishing_app
 ```
 
-    2. Install dependencies:
-```
+2. Install dependencies:
+```bash
 pip install -r requirements.txt
 ```
 
-    3. Train the model:
-```
+3. Train the model:
+```bash
 python train_model.py
 ```
 
-     4. Run the application:
-```
+4. Run the application:
+```bash
 python app.py
 ```
 
-    5. Open http://localhost:5000 in your browser
-
+5. Open http://localhost:5000 in your browser
 
 ## Usage
 1. Enter a URL in the text field
@@ -646,17 +645,17 @@ python app.py
 3. View the prediction result
 
 ## Technology Stack
-```
 - Python 3.12.5
 - Flask Web Framework
 - Scikit-learn Machine Learning
 - Random Forest Algorithm
 - HTML5/CSS3 Frontend
 ```
+```
 
-## HOW TO RUN THIS PROJECT?
+### HOW TO RUN THIS PROJECT?
 
-### **Step 1: Install Dependencies**
+**Step 1: Install Dependencies**
 ```
 pip install -r requirements.txt
 ```
@@ -684,3 +683,8 @@ Try these examples:
 - `http://paypal-security-update.com` (Phishing)
 
 This implementation provides a complete, professional-grade phishing detection system with proper error handling, a beautiful interface, and both machine learning and rule-based detection methods.
+
+
+
+
+
