@@ -645,6 +645,7 @@ python app.py
 3. View the prediction result
 
 ## Technology Stack
+```
 - Python 3.12.5
 - Flask Web Framework
 - Scikit-learn Machine Learning
