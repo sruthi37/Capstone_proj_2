@@ -689,3 +689,101 @@ This implementation provides a complete, professional-grade phishing detection s
 
 
 
+### Below I have attached the screenshots of Project's output.
+
+### 1. This image is the screenshot of running the project using the cmd, **python train_model.py**
+
+<img width="1594" height="418" alt="Screenshot 2025-08-28 150607" src="https://github.com/user-attachments/assets/04e6d72e-288c-4efa-bb2d-a1d0b8f5c6c3" />
+
+
+
+### 2. This image shows that the model is trained.
+
+<img width="1574" height="835" alt="Screenshot 2025-08-28 150728" src="https://github.com/user-attachments/assets/c69be0e8-a793-4861-afdc-fc962707e145" />
+
+
+
+### 3. This image is the screenshot of running the flask app using the cmd, **python app.py** and the URL is displayed **http://127.0.0.1.5000**, which can be used to go the flask app
+
+<img width="1565" height="579" alt="Screenshot 2025-08-28 151341" src="https://github.com/user-attachments/assets/14eedbba-e0d2-4435-9055-862459588745" />
+
+
+
+### 4. This image shows the **Phishing Detector Application page**, after running the app.py by using the link.
+
+<img width="1919" height="949" alt="Screenshot 2025-08-28 151305" src="https://github.com/user-attachments/assets/adb416b2-434b-4ab0-91e7-b1027c6d61a1" />
+
+
+
+### 5. In this image I have given an URL and the URL is tested and displayed as **Legitimate Website**, which is the expected output.
+
+<img width="1919" height="959" alt="Screenshot 2025-08-28 151137" src="https://github.com/user-attachments/assets/5952218e-c013-4478-9f9e-68b86ce2913a" />
+
+
+
+### 6. In this image I have given an URL and the URL is tested and displayed as **Phishing Website**, which is the expected output.
+
+<img width="1917" height="930" alt="Screenshot 2025-08-28 151221" src="https://github.com/user-attachments/assets/b159851c-4862-42c6-bac3-c05cc8617d55" />
+
+
+
+## **CONCLUSION**
+
+### Project Achievements
+This project successfully designed, developed, and implemented a comprehensive **Phishing Website Detection System** utilizing machine learning techniques. The system effectively demonstrates the application of Random Forest classification algorithm in cybersecurity to distinguish between legitimate and phishing URLs with significant accuracy. 
+
+The implemented web application provides a user-friendly interface that enables real-time URL analysis, making cybersecurity assessment accessible to non-technical users. The integration of Flask framework with machine learning components resulted in a robust, responsive, and functional prototype that meets the project's primary objectives.
+
+### Key Outcomes
+- **Developed a working ML model** capable of detecting phishing patterns in URLs
+- **Created a functional web application** with intuitive user interface
+- **Achieved satisfactory accuracy** in classification tasks
+- **Implemented a hybrid approach** combining machine learning with rule-based detection
+- **Established a scalable architecture** for future enhancements
+- **Demonstrated practical application** of machine learning in cybersecurity
+
+### Technical Proficiency Demonstrated
+Throughout this project, we successfully applied:
+- **Machine Learning Fundamentals**: Data preprocessing, feature selection, model training, and evaluation
+- **Web Development Skills**: Flask framework, HTML/CSS, responsive design
+- **Data Science Techniques**: Pandas for data manipulation, scikit-learn for ML algorithms
+- **Software Engineering Practices**: Modular code structure, error handling, documentation
+
+### Challenges Overcome
+The project involved addressing several technical challenges:
+- **Data preprocessing** and feature engineering for optimal model performance
+- **Integration** of machine learning model with web framework
+- **Handling real-time** URL processing and prediction
+- **Ensuring cross-platform** compatibility and deployment readiness
+
+### Limitations
+While the project achieved its objectives, certain limitations were identified:
+- Dependency on the quality and comprehensiveness of the training dataset
+- Limited to URL-based features without content analysis
+- Rule-based fallback may generate false positives/negatives in edge cases
+- Requires periodic retraining to maintain effectiveness against evolving phishing techniques
+
+### Future Enhancements
+The project provides a strong foundation for several future improvements:
+
+1. **Advanced ML Algorithms**: Implement deep learning models (CNN, RNN) for improved accuracy
+2. **Real-time Content Analysis**: Integrate webpage content scraping and analysis
+3. **Browser Extension**: Develop browser plugin for seamless protection
+4. **API Services**: Create RESTful API for third-party integrations
+5. **Mobile Application**: Develop native mobile apps for iOS and Android
+6. **Threat Intelligence**: Integrate with live threat feeds and databases
+7. **User Reporting System**: Implement crowd-sourced phishing reporting
+8. **Multi-language Support**: Add internationalization for global users
+
+### Societal Impact
+This project contributes to the broader field of cybersecurity by:
+- Providing an accessible tool for individual internet safety
+- Demonstrating the practical application of ML in security domains
+- Raising awareness about phishing threats and prevention
+- Serving as an educational resource for students and developers
+
+### Final Remarks
+The Phishing Website Detection System stands as a testament to the powerful synergy between machine learning and web technologies in addressing contemporary cybersecurity challenges. The project not only achieved its technical objectives but also provided valuable insights into the practical implementation of AI-driven security solutions.
+
+As cyber threats continue to evolve in sophistication, systems like this demonstrate the critical role of machine learning in developing proactive defense mechanisms. This project serves as a foundation for future research and development in AI-powered cybersecurity solutions that can adapt to emerging threats and protect users in an increasingly digital world.
+
